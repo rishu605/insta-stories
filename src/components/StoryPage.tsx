@@ -1,10 +1,18 @@
 import StoryList from "./StoryList";
 import StoryViewer from "./StoryViewer";
-import { stories } from "../data/data";
-import { useState } from "react";
+import { stories, StoryType } from "../data/data";
+import { useEffect, useState } from "react";
 
 const StoryPage = () => {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+  const [stories, setStories] = useState<StoryType[]>([]);
+
+  useEffect(() => {
+    fetch("/stories.json")
+      .then((response) => response.json())
+      .then((data: StoryType[]) => setStories(data))
+      .catch((error) => console.error("Error fetching stories:", error));
+  }, []);
 
   const handleNextStory = () => {
     if (currentIndex === null || currentIndex >= stories.length - 1) {

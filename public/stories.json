@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "username": "john_doe",
+        "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+        "storyUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+        "timestamp": "2023-10-01T12:00:00Z"
+    },
+    {
+        "id": "2",
+        "username": "jane_smith",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        "storyUrl": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        "timestamp": "2023-10-01T12:05:00Z"
+    },
+    {
+        "id": "3",
+        "username": "alice_wonder",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+        "storyUrl": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759",
+        "timestamp": "2023-10-01T12:10:00Z"
+    },
+    {
+        "id": "4",
+        "username": "bob_builder",
+        "avatarUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg",
+        "timestamp": "2023-10-01T12:15:00Z"
+    },
+    {
+        "id": "5",
+        "username": "charlie_brown",
+        "avatarUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+        "timestamp": "2023-10-01T12:20:00Z"
+    },
+    {
+        "id": "6",
+        "username": "dora_explorer",
+        "avatarUrl": "https://images.unsplash.com/photo-1542206395-9feb3edaa68d",
+        "storyUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+        "timestamp": "2023-10-01T12:25:00Z"
+    },
+    {
+        "id": "7",
+        "username": "mike_tyson",
+        "avatarUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5",
+        "storyUrl": "https://images.unsplash.com/photo-1518806118471-9f38cf7287f2",
+        "timestamp": "2023-10-01T12:30:00Z"
+    },
+    {
+        "id": "8",
+        "username": "elon_musk",
+        "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "storyUrl": "https://images.unsplash.com/photo-1587614295998-6c71bf2351ab",
+        "timestamp": "2023-10-01T12:35:00Z"
+    },
+    {
+        "id": "9",
+        "username": "steve_jobs",
+        "avatarUrl": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+        "timestamp": "2023-10-01T12:40:00Z"
+    },
+    {
+        "id": "10",
+        "username": "mark_zuckerberg",
+        "avatarUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36",
+        "storyUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b",
+        "timestamp": "2023-10-01T12:45:00Z"
+    },
+    {
+        "id": "11",
+        "username": "jeff_bezos",
+        "avatarUrl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg",
+        "timestamp": "2023-10-01T12:50:00Z"
+    },
+    {
+        "id": "12",
+        "username": "tony_stark",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "storyUrl": "https://images.unsplash.com/photo-1518674660708-4e8e57e9f1c4",
+        "timestamp": "2023-10-01T12:55:00Z"
+    },
+    {
+        "id": "13",
+        "username": "bruce_wayne",
+        "avatarUrl": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg",
+        "timestamp": "2023-10-01T13:00:00Z"
+    },
+    {
+        "id": "14",
+        "username": "wonder_woman",
+        "avatarUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507",
+        "storyUrl": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514",
+        "timestamp": "2023-10-01T13:05:00Z"
+    },
+    {
+        "id": "15",
+        "username": "flash_gordon",
+        "avatarUrl": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
+        "storyUrl": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c",
+        "timestamp": "2023-10-01T13:10:00Z"
+    },
+    {
+        "id": "16",
+        "username": "harry_potter",
+        "avatarUrl": "https://images.unsplash.com/photo-1485795959911-ea5ebf61b3db",
+        "storyUrl": "https://images.unsplash.com/photo-1504257432389-52343af06ae3",
+        "timestamp": "2023-10-01T13:15:00Z"
+    },
+    {
+        "id": "17",
+        "username": "ron_weasley",
+        "avatarUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+        "timestamp": "2023-10-01T13:20:00Z"
+    },
+    {
+        "id": "18",
+        "username": "hermione_granger",
+        "avatarUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87",
+        "storyUrl": "https://images.unsplash.com/photo-1501555088652-021faa106b9b",
+        "timestamp": "2023-10-01T13:25:00Z"
+    },
+    {
+        "id": "19",
+        "username": "frodo_baggins",
+        "avatarUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+        "storyUrl": "https://images.pexels.com/photos/3772628/pexels-photo-3772628.jpeg",
+        "timestamp": "2023-10-01T13:30:00Z"
+    },
+    {
+        "id": "20",
+        "username": "samwise_gamgee",
+        "avatarUrl": "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
+        "storyUrl": "https://images.unsplash.com/photo-1533745848184-65767e2fc6d4",
+        "timestamp": "2023-10-01T13:35:00Z"
+    }
+]
