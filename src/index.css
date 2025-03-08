@@ -19,6 +19,15 @@ body {
   justify-content: flex-start;
 }
 
+/* Prevent scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden; /* Completely prevent scrolling */
+}
+
 /* Centered content container */
 #root {
   max-width: 1280px;
