@@ -197,6 +197,6 @@ This app **mimics Instagram Stories** with **smooth transitions, auto-play, manu
 ---
 
 **📌 Author:**  
-[Your Name] | [GitHub](https://github.com/your-username) | [LinkedIn](https://linkedin.com/in/your-profile)  
+[Your Name] | [GitHub](https://github.com/rishu605) | [LinkedIn](https://linkedin.com/in/rishabhgupta605)  
 
 **⭐ Don't forget to star the repo if you find it useful!** 🌟

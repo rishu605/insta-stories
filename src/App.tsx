@@ -1,11 +1,11 @@
 import './App.css'
-import StoryPage from './components/StoryPage'
+import Layout from './components/Layout'
 
 function App() {
 
   return (
     <>
-      <StoryPage/>
+      <Layout/>
     </>
   )
 }
