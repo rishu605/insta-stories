@@ -19,7 +19,7 @@ const StatusBar = () => {
       <div className="time">{time}</div>
       <div className="instagram-logo">Instagram</div>
       <div className="battery">
-        <FaBatteryFull size={20} />
+        <FaBatteryFull role="img" size={20} />
       </div>
     </div>
   );

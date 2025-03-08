@@ -70,9 +70,9 @@ const StoryViewer: FC<StoryViewerProps> = ({ storyUrl, onNext, onPrev, onClose, 
   };
 
   return (
-    <div className="story-overlay" onClick={handleClick}>
+    <div role="presentation" className="story-overlay" onClick={handleClick}>
       <div className={`story-container ${animationClass}`}>
-        {loading && <div className="spinner"></div>}
+        {loading && <div role="status" className="spinner"></div>}
         <img
           src={storyUrl}
           alt="Story"
