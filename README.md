@@ -89,8 +89,7 @@ The app should now be running at **http://localhost:5173**
  ┃ ┃ ┣ 📜 StoryPage.tsx
  ┃ ┣ 📂 data
  ┃ ┃ ┣ 📜 data.ts
- ┃ ┣ 📂 styles
- ┃ ┃ ┣ 📜 styles.css
+ ┃ ┣ 📂 tests
  ┃ ┣ 📜 App.tsx
  ┃ ┣ 📜 main.tsx
  ┣ 📜 package.json
