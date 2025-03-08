@@ -15,7 +15,7 @@ describe("StoryPage Component", () => {
       Promise.resolve({
         json: () => Promise.resolve(mockStories),
       })
-    ) as unknown as vi.Mock;
+    ) as unknown as typeof fetch;
   });
 
   it("matches snapshot", () => {
