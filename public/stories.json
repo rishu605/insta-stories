@@ -3,7 +3,7 @@
         "id": "1",
         "username": "john_doe",
         "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
-        "storyUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+        "storyUrl": "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif",
         "timestamp": "2023-10-01T12:00:00Z"
     },
     {
@@ -17,14 +17,14 @@
         "id": "3",
         "username": "alice_wonder",
         "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
-        "storyUrl": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759",
+        "storyUrl": "https://media.giphy.com/media/l3q2wJsC23ikTaK3W/giphy.gif",
         "timestamp": "2023-10-01T12:10:00Z"
     },
     {
         "id": "4",
         "username": "bob_builder",
         "avatarUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
-        "storyUrl": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg",
+        "storyUrl": "https://media.giphy.com/media/26tPoyDhjiJ2g7rEs/giphy.gif",
         "timestamp": "2023-10-01T12:15:00Z"
     },
     {
@@ -38,7 +38,7 @@
         "id": "6",
         "username": "dora_explorer",
         "avatarUrl": "https://images.unsplash.com/photo-1542206395-9feb3edaa68d",
-        "storyUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+        "storyUrl": "https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif",
         "timestamp": "2023-10-01T12:25:00Z"
     },
     {
@@ -52,7 +52,7 @@
         "id": "8",
         "username": "elon_musk",
         "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
-        "storyUrl": "https://images.unsplash.com/photo-1587614295998-6c71bf2351ab",
+        "storyUrl": "https://media.giphy.com/media/xThtaqO2bUWBZrkxDi/giphy.gif",
         "timestamp": "2023-10-01T12:35:00Z"
     },
     {
@@ -66,7 +66,7 @@
         "id": "10",
         "username": "mark_zuckerberg",
         "avatarUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36",
-        "storyUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b",
+        "storyUrl": "https://media.giphy.com/media/l3vRgpPU5x33JJaHC/giphy.gif",
         "timestamp": "2023-10-01T12:45:00Z"
     },
     {
@@ -80,7 +80,7 @@
         "id": "12",
         "username": "tony_stark",
         "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "storyUrl": "https://images.unsplash.com/photo-1518674660708-4e8e57e9f1c4",
+        "storyUrl": "https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif",
         "timestamp": "2023-10-01T12:55:00Z"
     },
     {
@@ -94,7 +94,7 @@
         "id": "14",
         "username": "wonder_woman",
         "avatarUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507",
-        "storyUrl": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514",
+        "storyUrl": "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif",
         "timestamp": "2023-10-01T13:05:00Z"
     },
     {
@@ -136,7 +136,7 @@
         "id": "20",
         "username": "samwise_gamgee",
         "avatarUrl": "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
-        "storyUrl": "https://images.unsplash.com/photo-1533745848184-65767e2fc6d4",
+        "storyUrl": "https://media.giphy.com/media/26tPoyDhjiJ2g7rEs/giphy.gif",
         "timestamp": "2023-10-01T13:35:00Z"
     }
 ]
