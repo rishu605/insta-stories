@@ -115,6 +115,30 @@ The app should now be running at **http://localhost:5173**
 
 ---
 
+## 🏗 Design Choices & Performance Optimizations
+
+### ⚡ Component-Based Architecture
+
+- Separation of concerns: Each component handles a single responsibility (StoryList, StoryViewer, StoryPage).
+
+- Scalability: Easy to extend with video stories or swipe gestures.
+
+### ⚡ Optimized State Management
+
+- Used useState selectively to minimize unnecessary re-renders.
+
+- **Dependency arrays in **useEffect ensure updates only when needed.
+
+### 🎭 Efficient Rendering & Lazy Loading
+
+- Spinner (loading state) prevents layout shift while waiting for images.
+
+### 🎬 Optimized Story Transitions
+
+- CSS animations (fade-in, fade-out) ensure smooth transitions.
+
+- Avoided unnecessary re-renders when switching stories using setTimeout.
+
 ## 🎨 Styling (`styles.css`)
 
 ### 1️⃣ General Styles
