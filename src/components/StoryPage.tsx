@@ -1,6 +1,6 @@
 import StoryList from "./StoryList";
 import StoryViewer from "./StoryViewer";
-import { stories, StoryType } from "../data/data";
+import { StoryType } from "../data/data";
 import { useEffect, useState } from "react";
 
 const StoryPage = () => {
@@ -47,6 +47,7 @@ const StoryPage = () => {
             onNext={handleNextStory} 
             onPrev={handlePrevStory} 
             onClose={handleCloseStory}
+            hasNext={currentIndex < stories.length - 1}
           />
         </div>
       )}

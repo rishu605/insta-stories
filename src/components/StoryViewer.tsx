@@ -1,13 +1,14 @@
-import { FC, MouseEvent } from "react";
+import { FC, MouseEvent, useEffect } from "react";
 
 interface StoryViewerProps {
   storyUrl: string;
   onNext: () => void;
   onPrev: () => void;
   onClose: () => void;
+  hasNext: boolean;
 }
 
-const StoryViewer: FC<StoryViewerProps> = ({ storyUrl, onNext, onPrev, onClose }) => {
+const StoryViewer: FC<StoryViewerProps> = ({ storyUrl, onNext, onPrev, onClose, hasNext }) => {
   const handleClick = (event: MouseEvent<HTMLDivElement>) => {
     const { clientX, target, currentTarget } = event;
     const middle = currentTarget.clientWidth / 2;
@@ -25,6 +26,18 @@ const StoryViewer: FC<StoryViewerProps> = ({ storyUrl, onNext, onPrev, onClose }
       onPrev(); // Clicked on left half -> Previous Story
     }
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (hasNext) {
+        onNext();
+      } else {
+        onClose(); // No next story, so close the viewer
+      }
+    }, 5000);
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, [storyUrl, hasNext, onNext, onClose]);
 
   return (
     <div className="story-overlay" onClick={handleClick}>
