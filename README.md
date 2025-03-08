@@ -76,6 +76,14 @@ The app should now be running at **http://localhost:5173**
 
 ---
 
+## 🚀 Running tests
+
+### First Clear the Snapshots in tests folder
+```sh
+npm run test
+```
+---
+
 ## 🛠 Project Structure
 ```
 📦 insta-stories-app
