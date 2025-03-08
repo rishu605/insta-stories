@@ -1,9 +1,49 @@
-const StoryPage = () => {
-    return (
-        <div>
-            <div>Story Page</div>
-        </div>
-    )
-}
+import StoryList from "./StoryList";
+import StoryViewer from "./StoryViewer";
+import { stories } from "../data/data";
+import { useState } from "react";
 
-export default StoryPage
+const StoryPage = () => {
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+
+  const handleNextStory = () => {
+    if (currentIndex === null || currentIndex >= stories.length - 1) {
+      setCurrentIndex(null); // Close viewer if no more stories
+    } else {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handlePrevStory = () => {
+    if (currentIndex === null || currentIndex <= 0) {
+      setCurrentIndex(null); // Close viewer if at first story
+    } else {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const handleCloseStory = () => {
+    setCurrentIndex(null);
+  };
+
+  return (
+    <div className="story-page">
+      {/* Stories at the Top */}
+      <StoryList stories={stories} onSelectStory={(index) => setCurrentIndex(index)} />
+
+      {/* Full-Screen Story Viewer */}
+      {currentIndex !== null && (
+        <div className="story-overlay">
+          <StoryViewer 
+            storyUrl={stories[currentIndex].storyUrl} 
+            onNext={handleNextStory} 
+            onPrev={handlePrevStory} 
+            onClose={handleCloseStory}
+          />
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default StoryPage;
